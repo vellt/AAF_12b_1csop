@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp17"
+        mc:Ignorable="d"
+        Icon="typewriter.ico"
+        Title="Karakterszámláló" Height="500" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <TextBlock Text="Írd be a szöveget:" FontSize="25" Margin="10"/>
+            <TextBox Name="bevitel" TextWrapping="Wrap" FontSize="25" Height="300" BorderThickness="5" Margin="10" Padding="5"/>
+            <TextBlock FontSize="25" Margin="10">
+                karakterek száma: <TextBlock Name="darab" Text="0" Foreground="Red" FontWeight="Bold"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
