@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WpfApp17.Properties
+namespace kepes_dobokocka.Properties
 {
 
 

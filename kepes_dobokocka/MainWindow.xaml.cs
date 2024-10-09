@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp17
+namespace kepes_dobokocka
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,13 +23,14 @@ namespace WpfApp17
         public MainWindow()
         {
             InitializeComponent();
-            bevitel.TextChanged += Bevitel_TextChanged;
+            hatter.MouseUp += Hatter_MouseUp;
         }
 
-        private void Bevitel_TextChanged(object sender, TextChangedEventArgs e)
+        private void Hatter_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            int hossz = bevitel.Text.Length;
-            darab.Text = hossz.ToString();
+            Random r = new Random();
+            int random = r.Next(1, 7);
+            kep.Source = new BitmapImage(new Uri($"dice{random}.png", UriKind.Relative));
         }
     }
 }

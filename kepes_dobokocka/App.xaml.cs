@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfApp17
+namespace kepes_dobokocka
 {
     /// <summary>
     /// Interaction logic for App.xaml
