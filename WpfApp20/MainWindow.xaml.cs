@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace kepes_dobokocka
+namespace WpfApp20
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,14 +23,22 @@ namespace kepes_dobokocka
         public MainWindow()
         {
             InitializeComponent();
-            hatter.MouseUp += Hatter_MouseUp;
+            csokkent.Click += Csokkent_Click;
+            novel.Click += Novel_Click;
         }
 
-        private void Hatter_MouseUp(object sender, MouseButtonEventArgs e)
+        private void Novel_Click(object sender, RoutedEventArgs e)
         {
-            Random r = new Random();
-            int random = r.Next(1, 7);
-            kep.Source = new BitmapImage(new Uri($"dice{random}.png", UriKind.Relative));
+            int jelenlegi = Convert.ToInt32(szam.Text);
+            int novelt = jelenlegi+1;
+            szam.Text = novelt.ToString();
+        }
+
+        private void Csokkent_Click(object sender, RoutedEventArgs e)
+        {
+            int jelenlegi = Convert.ToInt32(szam.Text);
+            int csokkentett = jelenlegi - 1;
+            szam.Text = csokkentett.ToString();
         }
     }
 }
