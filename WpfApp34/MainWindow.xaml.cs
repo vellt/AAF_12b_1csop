@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp30
+namespace WpfApp34
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,19 @@ namespace WpfApp30
         public MainWindow()
         {
             InitializeComponent();
+            gomb.Click += Gomb_Click;
+        }
+
+        private void Gomb_Click(object sender, RoutedEventArgs e)
+        {
+            if (keresztnev.Text.Trim().Length==0)
+            {
+                MessageBox.Show("Kötelező a csillaggal jelölt mezőt kitölteni");
+            }
+            else
+            {
+                MessageBox.Show($"{vezeteknev} {keresztnev}");
+            }
         }
     }
 }

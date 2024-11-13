@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF80B1F0-F6E2-4E3B-BF4F-806894007339}</ProjectGuid>
+    <ProjectGuid>{0998892A-6795-48FE-AC14-DC15C11AA89A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WpfApp30</RootNamespace>
-    <AssemblyName>WpfApp30</AssemblyName>
+    <RootNamespace>WpfApp34</RootNamespace>
+    <AssemblyName>WpfApp34</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,6 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="hand.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
