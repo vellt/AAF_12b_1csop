@@ -1,20 +1,18 @@
-﻿<Window x:Class="WpfApp40.MainWindow"
+<Window x:Class="WpfApp40.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp40"
         mc:Ignorable="d"
-        Title="Galéria" Height="500" Width="500"
-        BorderBrush="White" BorderThickness="5">
+        Title="Galéria" Height="430" Width="500">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <Image Name="kep" Source="01.jpg" Stretch="Fill" Height="250"/>
+            <Image Name="kep" Source="01.jpg" Stretch="UniformToFill" Height="300"/>
             <StackPanel Orientation="Horizontal" 
-                        HorizontalAlignment="Center"
-                        Margin="0 50">
-                <Button Name="vissza" Content="Vissza" Padding="50 20" Margin="0 0 50 0"/>
-                <Button Name="elore" Content="Előre"  Padding="50 20"/>
+                        HorizontalAlignment="Center">
+                <Button Name="vissza" Content="Vissza"  Margin="20" Height="50" Width="200"/>
+                <Button Name="elore" Content="Előre"   Margin="20" Height="50" Width="200"/>
             </StackPanel>
         </StackPanel>
     </Grid>
