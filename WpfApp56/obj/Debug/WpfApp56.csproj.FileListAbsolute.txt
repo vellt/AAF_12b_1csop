@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\WpfApp56\WpfApp56\bin\Debug\WpfApp56.exe.config
+C:\Users\user\source\repos\WpfApp56\WpfApp56\bin\Debug\WpfApp56.exe
+C:\Users\user\source\repos\WpfApp56\WpfApp56\bin\Debug\WpfApp56.pdb
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\App.g.cs
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56_MarkupCompile.cache
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56_MarkupCompile.lref
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.g.resources
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.Properties.Resources.resources
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.exe
+C:\Users\user\source\repos\WpfApp56\WpfApp56\obj\Debug\WpfApp56.pdb
