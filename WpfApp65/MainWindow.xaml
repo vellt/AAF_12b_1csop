@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp65.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp65"
+        mc:Ignorable="d"
+        Icon="topjoy.ico" WindowStartupLocation="CenterScreen"
+        Title="Topjoy" Height="500" Width="500" Background="#1C203A">
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="50 0">
+            <Image Source="topjoy.png" Height="100" Margin="10"/>
+            <TextBlock Name="szoveg" Text="kattints az üziért!" Background="#00CC6A" TextAlignment="Center"
+                       Foreground="White" Padding="10" FontSize="20"/>
+            <Button Name="gomb" Content="Új üzenetet kérek" Background="Green" Foreground="White"
+                    Padding="10" FontSize="15"/>
+        </StackPanel>
+    </Grid>
+</Window>
