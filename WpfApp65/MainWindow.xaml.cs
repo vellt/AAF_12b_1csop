@@ -25,7 +25,12 @@ namespace WpfApp65
         public MainWindow()
         {
             InitializeComponent();
-            uzik = File.ReadAllLines("uzik.csv").ToList();
+            uzik = new List<string>()
+            {
+                "A BELSŐ SZÁMÍT",
+                "A CSILLAGOK FIGYELNEK",
+                "A DOLGOK JÓL HALADNAK"
+            };
             gomb.Click += Gomb_Click;
         }
 
